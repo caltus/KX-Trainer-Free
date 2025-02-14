@@ -126,15 +126,10 @@ void HackGUI::displayInfo()
     std::cout << "[Hotkeys]\n"
         << "NUMPAD1 - Save Position\n"
         << "NUMPAD2 - Load Position\n"
-        << "NUMPAD3 - Invisibility (for mobs)\n"
-        << "NUMPAD4 - Wall Climb\n"
+        << "NUMPAD4 - Invisibility (for mobs)\n"
         << "NUMPAD5 - Clipping\n"
         << "NUMPAD6 - Object Clipping\n"
-        << "NUMPAD7 - Full Strafe\n"
         << "NUMPAD8 - Toggle No Fog\n"
-        << "NUMPAD+ - Super Sprint (hold)\n"
-        << "CTRL - Fly (hold)\n"
-        << "SHIFT - Sprint\n"
         << "\n[Logs]\n";
 }
 
