@@ -41,15 +41,15 @@ namespace Constants {
     namespace Hotkeys {
         constexpr int KEY_SAVEPOS = 0x61;  // NUMPAD1
         constexpr int KEY_LOADPOS = 0x62;  // NUMPAD2
-        constexpr int KEY_INVISIBILITY = 0x63;  // NUMPAD3
-        constexpr int KEY_WALLCLIMB = 0x64;  // NUMPAD4
+        constexpr int KEY_INVISIBILITY = 0x64;  // NUMPAD3
+        constexpr int KEY_WALLCLIMB = 0xA8;  // NUMPAD4
         constexpr int KEY_CLIPPING = 0x65;  // NUMPAD5
         constexpr int KEY_OBJECT_CLIPPING = 0x66;  // NUMPAD6
-        constexpr int KEY_FULL_STRAFE = 0x67;  // NUMPAD7
+        constexpr int KEY_FULL_STRAFE = 0xA8;  // NUMPAD7
         constexpr int KEY_NO_FOG = 0x68;  // NUMPAD8
-        constexpr int KEY_SUPER_SPRINT = 0x6B;  // NUMPAD+
-        constexpr int KEY_SPRINT = 0xA0;  // Left Shift
-        constexpr int KEY_FLY = 0xA2;  // Left Ctrl
+        constexpr int KEY_SUPER_SPRINT = 0xA8;  // NUMPAD+
+        constexpr int KEY_SPRINT = 0xA8;  // Left Shift
+        constexpr int KEY_FLY = 0xA8;  // Left Ctrl
     }
 
     // Settings
@@ -63,7 +63,7 @@ namespace Constants {
         constexpr float WALLCLIMB_NORMAL_SPEED = 2.1875f;
         constexpr byte OBJECT_CLIPPING_ON = 0xDB;  // xmm3
         constexpr byte OBJECT_CLIPPING_OFF = 0xD3; // xmm2
-        constexpr float INVISIBILITY_ON = 2.7f;
+        constexpr float INVISIBILITY_ON = 8.04f;
         constexpr float INVISIBILITY_OFF = 1.0f;
         constexpr float CLIPPING_ON = 99999.0f;
         constexpr float CLIPPING_OFF = 0.0f;
